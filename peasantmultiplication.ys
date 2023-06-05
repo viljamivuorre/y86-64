@@ -2,8 +2,8 @@
 
 main:
 
-    irmovq pino, %rsp           #Initialize stack variables
-    irmovq pino, %rbp
+    irmovq stack, %rsp           #Initialize stack variables
+    irmovq stack, %rbp
 
     irmovq $832726347, %rsi             #multiplication values
     irmovq $8732648726, %rdi
