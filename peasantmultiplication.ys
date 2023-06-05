@@ -5,8 +5,8 @@ main:
     irmovq pino, %rsp           #Initialize stack variables
     irmovq pino, %rbp
 
-    irmovq $5, %rsi             #multiplication values
-    irmovq $30, %rdi
+    irmovq $832726347, %rsi             #multiplication values
+    irmovq $8732648726, %rdi
     call mp
     halt
 
